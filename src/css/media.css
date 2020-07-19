@@ -1,0 +1,141 @@
+@media (max-width: 388px) {
+    .container{
+        margin:0 auto;
+        max-width:980px;
+        padding: 0 29px ;
+    }
+    #home{
+        padding-top:65px;
+    }
+    .menu_wrapper{
+        display:none;
+    }
+    .menu_wrapper.active{
+        display:block;
+    }
+    .menu{
+        display: block;
+        width: 375px;
+        height: 812px;
+        border-bottom:none;
+
+    }
+    .menu li {
+        font-family: Gilroy-Bold;
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .menu li + li {
+        padding-top:67px;
+    }
+    .language-mobile{
+        float:right;
+        font-family: Gilroy-Bold;
+        font-size: 34px;
+        line-height: 42px;
+        color: #828282;
+        display:inline-block;
+        transform: rotate(-90deg) translate(70%, 120%);
+    }
+    .language-mobile span{
+        color: #070707;
+    }
+
+
+    .burger-menu_button {
+        display:inline-block;
+        position: relative;
+        float:right;
+        width:33px;
+        height:20px;
+        cursor:pointer;
+    }
+    .burger-menu_lines,
+    .burger-menu_lines:before,
+    .burger-menu_lines:after {
+        display: inline-block;
+        position: absolute;
+        width:33px;
+        height:4px;
+        background: #000000;
+    }
+    .burger-menu_lines:before{
+        content: '';
+        top: 8px;
+    }
+    .burger-menu_lines:after {
+        content: '';
+        top: 16px;
+    }
+    .burger-menu_lines.active{
+
+    }
+    .first {
+        display:inline-block;
+    }
+    .first_wrapper{
+        margin-top:-10px;
+       display:block;
+        padding: 0 0  37px 0;
+    }
+    .first_center{
+        padding-top:28px;
+    }
+    .language{
+        display:none;
+    }
+    .img_desktop{
+        display:none;
+    }
+    .img_mobile{
+        display:block;
+
+    }
+    .img_mobile img{
+        max-width:100%;
+    }
+    .about_me{
+        margin-top:80px;
+    }
+    .about_me-wrapper{
+        padding: 81px 0 76px 0;
+    }
+    .about_me-content{
+        padding:70px 0 0 0;
+    }
+    .skills_title{
+        padding: 83px 0 0 0;
+    }
+    .skills_text{
+        padding: 50px 0 0 0;
+    }
+    .skills_icons{
+        display:block;
+        padding:71px 0  91px 0;
+    }
+    .skills_icon{
+        padding-bottom:81px;
+    }
+    .skills_icon:nth-child(4){
+        padding-bottom:0;
+    }
+    .portfolio_title{
+        padding: 81px 0 65px 0;
+    }
+    .portpolio_description {
+        padding: 33px 0 78px 0;
+    }
+    .contacts_btn{
+        margin: 40px auto 48px auto;
+        width:316px;
+    }
+
+    .contacts_icons{
+        padding:0;
+        width:316px;
+    }
+    footer{
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
